@@ -13,7 +13,7 @@ node_modules
 .env
 *.log
 
-# env files — never commit secrets
+# env files never commit secrets
 .env
 .env.local
 .env.development.local

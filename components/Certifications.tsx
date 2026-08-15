@@ -10,7 +10,7 @@ export default function Certifications() {
         Education & credentials
       </h2>
       <p className="text-dim text-sm mb-12 max-w-lg">
-        Kept selective — the coursework and credentials that best show depth,
+        Kept selective the coursework and credentials that best show depth,
         not a wall of beginner badges.
       </p>
       <div className="grid md:grid-cols-3 gap-5">

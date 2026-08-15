@@ -12,7 +12,7 @@ export default async function ProjectsPage() {
         Projects
       </h1>
       <p className="text-dim mb-14 max-w-xl">
-        Systems built end-to-end — from database schema to deployment.
+        Systems built end-to-end from database schema to deployment.
       </p>
       <div className="flex flex-col gap-5">
         {projects.map((p) => (

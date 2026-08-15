@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Archivo, Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+
 import Footer from "@/components/Footer";
+
+import SiteHeader from "@/components/SiteHeader";
 
 const archivo = Archivo({
   subsets: ["latin"],
@@ -19,7 +21,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Prabesh Maharjan | Full-Stack Developer",
   description:
-    "Full-stack developer building production-ready web platforms — from database schema to deployment.",
+    "Full-stack developer building production-ready web platforms from database schema to deployment.",
 };
 
 export default function RootLayout({
@@ -30,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${archivo.variable} ${inter.variable}`}>
       <body className="font-sans" suppressHydrationWarning>
-        <Navbar />
+        <SiteHeader />
         {children}
         <Footer />
       </body>

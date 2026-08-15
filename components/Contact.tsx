@@ -188,7 +188,7 @@ export default function Contact() {
 
           {status === "success" && (
             <p className="text-sm text-green-400">
-              Thanks! Your message has been sent — I&apos;ll reply soon.
+              Thanks! Your message has been sent I&apos;ll reply soon.
             </p>
           )}
           {status === "error" && (

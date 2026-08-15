@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
 export async function POST(req: NextRequest) {
   const { name, email, message, company } = await req.json();
 
-  // Honeypot check — if this hidden field is filled, it's a bot
+  // Honeypot check if this hidden field is filled, it's a bot
   if (company) {
     return NextResponse.json({ ok: true }); // silently succeed, don't tip off the bot
   }

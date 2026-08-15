@@ -5,7 +5,7 @@ export type Credential = {
   note?: string;
 };
 
-// Keep this list selective — only include credentials that add real signal
+// Keep this list selective only include credentials that add real signal
 // (recognized certifications, substantial coursework, or notable modules).
 // Avoid listing beginner "intro to X" certificates; they undercut a BSc-level profile.
 export const credentials: Credential[] = [
