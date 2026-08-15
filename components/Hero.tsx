@@ -32,7 +32,7 @@ export default function Hero() {
         </h1>
         <p className="mt-5 text-base text-dim max-w-md">
           BSc Computer Science graduate building production-ready web
-          platforms — from database schema to deployment.
+          platforms from database schema to deployment.
         </p>
         <div className="mt-7 flex gap-4 flex-wrap">
           <Link href="/projects" className="btn btn-fill">
