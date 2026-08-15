@@ -68,8 +68,8 @@ export default function About() {
           <p className="text-dim mb-8 max-w-2xl">
             I&apos;m a BSc (Hons) Computer Science graduate from Herald
             College Kathmandu, affiliated with the University of
-            Wolverhampton. I build full-stack web applications end-to-end —
-            from database design to deployment — with a practical,
+            Wolverhampton. I build full-stack web applications end-to-end 
+            from database design to deployment with a practical,
             troubleshooting-first approach shaped by years in hardware
             repair before I wrote a line of code.
           </p>

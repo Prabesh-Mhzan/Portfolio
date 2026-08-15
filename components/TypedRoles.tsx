@@ -4,8 +4,11 @@ import { useEffect, useState } from "react";
 
 const roles = [
   "Full-Stack Developer",
+  "Mobile App Developer",
+  "QA Engineer",
   "UI/UX Designer",
   "Graphic Designer",
+  "DevOps Engineer",
 ];
 
 export default function TypedRoles() {

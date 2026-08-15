@@ -4,12 +4,12 @@ import { useState, FormEvent } from "react";
 
 // Edit these 6 lines to change your contact details/social links site-wide.
 const CONTACT_INFO = {
-  email: "your@email.com",
-  phone: "+977 98XXXXXXXX",
-  facebook: "https://facebook.com/yourprofile",
-  twitter: "https://x.com/yourprofile",
-  linkedin: "https://linkedin.com/in/yourprofile",
-  instagram: "https://instagram.com/yourprofile",
+  email: "prabesh.raj.maharjan@gmail.com",
+  phone: "+977 9818315011",
+  facebook: "#",
+  twitter: "#",
+  linkedin: "www.linkedin.com/in/prabesh-maharjan-30b391407",
+  instagram: "#",
 };
 
 export default function Contact() {
