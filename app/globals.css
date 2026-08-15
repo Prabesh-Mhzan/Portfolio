@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050506;
+  color: #F5F5F7;
+}
+
+.container-px {
+  @apply max-w-6xl mx-auto px-6 md:px-10;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-full px-7 py-3.5 text-sm font-semibold transition-all border;
+}
+.btn-fill {
+  @apply bg-accent border-accent text-white hover:bg-accentDim hover:border-accentDim;
+}
+.btn-line {
+  @apply border-line text-text hover:border-dim;
+}
+
+.chip {
+  @apply text-xs font-semibold bg-surface2 border border-line text-dim px-3 py-1 rounded-full;
+}
+
+.card {
+  @apply bg-surface border border-line rounded-2xl transition-colors;
+}
+.card:hover {
+  @apply border-accent;
+}
