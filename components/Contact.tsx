@@ -8,7 +8,7 @@ const CONTACT_INFO = {
   phone: "+977 9818315011",
   facebook: "https://www.facebook.com",
   twitter: "https://www.twitter.com",
-  github: "https://github.com/prabeshmaharjan",
+  github: "https://github.com/Prabesh-Mhzan",
   linkedin: "https://www.linkedin.com/in/prabesh-maharjan-30b391407",
   instagram: "https://www.instagram.com",
 };
